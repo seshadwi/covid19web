@@ -9,7 +9,8 @@
                 <img src="{{ asset('images/app-icon.png') }}" class="icon-app" alt="" srcset="">
                 <h3>Covid-19 Tracker</h3>
             </div>
-            <form class="h-100" action="{{ route('login') }}" method="post">
+            <form method="POST" class="h-100" action="{{ route('login') }}">
+                @csrf
                 <div class="form-custom-cvd d-flex flex-column py-2">
                     <label for="username">{{ __('Username') }}</label>
                     <input type="text" class="@error('username') is-invalid @enderror" name="username" value="{{ old("username") }}" required autocomplete="username" autofocus>
