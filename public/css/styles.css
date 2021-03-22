@@ -1,0 +1,36 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-darkblue {
+    background: rgb(35, 98, 133);
+    color: white;
+}
+
+.icon-app {
+    width: 5rem;
+    padding: 1rem;
+}
+
+.form-custom-cvd input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    outline: transparent;
+    width: 100%;
+}
+.form-custom-cvd input:focus {
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: rgba(135, 180, 117, 255);
+    padding: 0.3rem 0.8rem;
+}
+
+.hr-flex {
+    width: 100%;
+    color: gray;
+    border-style: inset;
+    border-width: 1px;
+    margin: 0.5rem auto;
+}
